@@ -1,0 +1,7 @@
+var a = "Azeeb"
+
+if (true) {
+    console.log(a); // This would print "Azeeb" due to hoisting
+    var a = "New Name";
+    console.log(a); // This would print "New Name"
+}

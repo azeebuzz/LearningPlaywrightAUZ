@@ -16,7 +16,6 @@ function printHello() {
     console.log("var -> " + a)
 }
 printHello() //calling the function
-
 //var allows redeclaration of the same variable in the same scope
 //var a = 50 // This will not throw an error because 'a' is redeclared in the same scope
 
@@ -56,4 +55,3 @@ printHelloLet() //calling the function
 //var allows redeclaration and is function scoped and can be reassigned
 //let does not allow redeclaration and is block scoped, but can be reassigned
 //const does not allow redeclaration and is block scoped and cannot be reassigned
-
