@@ -10,7 +10,7 @@ let declaredOnly;
 console.log(declaredOnly); // Output: undefined
 console.log(typeof undefined);
 
-let person = "Azeeb"; 
+let person = "Azeeb";
 console.log(typeof person); // Output: "string"
 
 let age = "30";
