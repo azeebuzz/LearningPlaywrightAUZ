@@ -25,6 +25,9 @@ This repository is a learning workspace for JavaScript, TypeScript, and Playwrig
 - **chapter_18_Typescript/**: TypeScript basics and type fundamentals.
 - **chapter_19_Typescript_Interface/**: interfaces, real-world contracts, and Page Object style patterns.
 - **chapter_20_Typescript_ENUM/**: enums, practical examples, and browser selection patterns.
+- **chapter_21_Typescript_Generic/**: generic types, generic classes, and typed API response examples.
+- **chapter_22_Typescript_PRIVATE_PROTECTED_PUBLIC/**: access modifiers, abstract classes, readonly properties, decorators, and method overriding.
+- **chapter_23_Playwright_Fundamentals/**: Playwright Test setup, browser projects, configuration, and starter test examples.
 
 ### Practice and task folders
 - **Tasks/**: daily/weekly coding tasks grouped by date or topic.
@@ -51,6 +54,12 @@ This helps keep the repository focused on learning files rather than generated o
 1. Clone the repository.
 2. Open the chapter or task folder you want to study.
 3. Run the JavaScript or TypeScript examples with Node.js or your preferred environment.
+
+### Playwright fundamentals
+1. Open the `chapter_23_Playwright_Fundamentals/` folder.
+2. Install its dependencies with `npm install`.
+3. Run the example tests with `npx playwright test`.
+4. View the HTML report with `npx playwright show-report` when a test run has completed.
 
 ## Notes
 This repo is mainly for learning and experimentation. Some folders are intentionally kept lightweight and may be added progressively over time.

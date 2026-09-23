@@ -5,7 +5,7 @@ class Father {
 }
 
 class Pramod extends Father {
-    home(): void {
+    override home(): void {
         console.log("3BHK");
     }
 }
